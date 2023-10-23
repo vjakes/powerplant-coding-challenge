@@ -17,11 +17,10 @@ namespace ProductionPlannerAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.Configure();
 
             builder.WebHost 
-                .UseUrls("http://*:8888")
-                .UseStartup<ProductionPlannerStartup>()
-                .Build();
+                .UseUrls("http://*:8888");
 
             var app = builder.Build();
 

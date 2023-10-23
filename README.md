@@ -1,5 +1,8 @@
 # powerplant-coding-challenge
 
+## Solution documentation
+
+see `ProductionPlanner\README.md`
 
 ## Welcome !
 

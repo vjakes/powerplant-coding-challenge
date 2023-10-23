@@ -2,6 +2,9 @@
 
 namespace ProductionPlannerAPI.Models
 {
+    /// <summary>
+    /// Provides request fuel data - costs etc.
+    /// </summary>
     public class FuelRequest
     {
         [JsonPropertyName("gas(euro/MWh)")]
@@ -11,10 +14,9 @@ namespace ProductionPlannerAPI.Models
         public float KerosineCostMWh { get; set; }
 
         [JsonPropertyName("co2(euro/ton)")]
-        public float CO2CostPerTonne { get; set; }
+        public float CO2CostPerTon { get; set; }
 
         [JsonPropertyName("wind(%)")]
-        public int Efficiency { get; set; }
-
+        public int WindEfficiency { get; set; }
     }
 }
