@@ -34,6 +34,8 @@ bld/
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
+*.vsidx
+*.v2
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -349,25 +351,3 @@ healthchecksdb
 
 # Mac
 .DS_Store
-
-appsettings.local.json
-
-/Alice/*.out
-/Alice/.thor-token
-/Alice/Alice_Api/ApiHost/Properties/launchSettings.json
-/Alice/Alice_App/ClientApp/cypress/screenshots/
-/Alice/Alice_App/ClientApp/cypress/videos/
-/Alice/Alice_App/ClientApp/package-lock.json
-/Alice/Alice_App/Properties/launchSettings.json
-/Alice/DatabaseManagementApi/ApiHost/scripts/
-/Alice/autotest/specflow/*.out
-/Alice/autotest/specflow/.env.container
-/Alice/autotest/specflow/OUT/
-/Alice/autotest/specflow/Screen17/app*settings*.json
-/Alice/create_alice-db_latest-empty.out
-/Alice/fresh-local-db.out
-/Alice/most-recent-app-dev-pg_dump.sql
-/Alice/most-recent-app-upstream-pg_dump.sql*
-ProductionPlanner/.vs/ProductionPlanner/v17/.suo
-ProductionPlanner/.vs/ProductionPlanner/v17/.suo
-*.v2
